@@ -1,13 +1,9 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license === null) {
-    return "";
-  } else {
-    return "![Badge](https://img.shields.io/badge/license-passing-pink)";
-  }
+  return "![Badge](https://img.shields.io/badge/license-passing-pink)";
 }
-console.log(null === "");
+
 renderLicenseBadge();
 
 // TODO: Create a function to generate markdown for README

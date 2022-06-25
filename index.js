@@ -3,8 +3,9 @@ const fs = require("fs");
 const generate = require("./utils/generateMarkdown");
 const fileName = "README.md";
 
-const questions = () => {
-  return inquirer.prompt([
+// const questions = () => {
+inquirer
+  .prompt([
     {
       type: "input",
       message: "What is your GitHub username?",
@@ -66,22 +67,45 @@ const questions = () => {
       message: "What questions need to be answered for the project?",
       name: "Questions",
     },
-  ]);
-};
-
-function writeToFile(fileName, data) {
-  const markdownFile = generate(data);
-  fs.writeFile(fileName, markdownFile, (err) =>
-    err
-      ? console.error(err)
-      : console.log("Success! Your README has been created!")
+  ])
+  .then((response) =>
+    fs.writeFile(fileName, generate(response), (err) =>
+      err
+        ? console.error(err)
+        : console.log("Success! Your README has been created!")
+    )
   );
-}
 
-function init() {
-  inquirer.prompt(questions).then(function (data) {
-    writeToFile(fileName, data);
-  });
-}
+// const writeFile = (data) => {
+//   fs.writeFile("README.md", data, (err) => {
+//     if (err) {
+//       console.log(err);
+//       return;
+//     } else {
+//       console.log("Success! Your README has been created!");
+//     }
+//   });
+// };
+// questions()
+//   .then((response) => {
+//     return generate(response);
+//   })
+//   .then((data) => {
+//     return writeFile(data);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
 
-init();
+// function writeToFile(fileName, data) {
+//   const markdownFile = generate(data);
+//   fs.writeFile(fileName, markdownFile, (err) =>
+//     err
+//       ? console.error(err)
+//       : console.log("Success! Your README has been created!")
+//   );
+// }
+
+// .then((response) => {
+//   return fs.writeFile(fileName.join (process.cwd(), "README.md"),generate(response))
+// })
