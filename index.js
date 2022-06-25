@@ -63,7 +63,7 @@ const questions = () => {
     },
     {
       type: "input",
-      message: "What questions need to be answered for the porject?",
+      message: "What questions need to be answered for the project?",
       name: "Questions",
     },
   ]);

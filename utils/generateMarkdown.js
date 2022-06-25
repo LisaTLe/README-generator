@@ -1,20 +1,19 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return "![badge]";
+  if (license === null) {
+    return "";
+  } else {
+    return "![Badge](https://img.shields.io/badge/license-passing-pink)";
+  }
 }
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+console.log(null === "");
+renderLicenseBadge();
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ![Badge](https://img.shields.io/badge/license-passing-pink)
 
   <h1> ${data.projectName} </h1>
 
@@ -34,10 +33,10 @@ function generateMarkdown(data) {
     10. [Questions](#Questions)
 
   ## GitHub
-  ${data.GitHubUser}
+  By: ${data.GitHubUser}
 
   ## Email
-  ${data.Email}
+  Email: ${data.Email}
 
   ## Project Name
   ${data.projectName}
@@ -49,7 +48,7 @@ function generateMarkdown(data) {
   ${data.Usage}
 
   ## License
-  ${renderLicenseBadge(data)}
+  This project is license under: ${data.license}
 
   ## Contributing
   ${data.Contributing}
@@ -58,7 +57,8 @@ function generateMarkdown(data) {
   ${data.Tests}
 
   ## Questions
-  ${data.Questions}
+  If there are any questions regarding the project, please email the question(s) to this email: ${data.Email}.
+  To see my more of my project or other projects, please visit my GitHub: https://github.com/${data.GitHubUser}
 `;
 }
 
