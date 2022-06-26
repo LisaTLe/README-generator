@@ -10,16 +10,16 @@ This application is an easy and quick way for developers to generate a README ma
 
 ## Table of Contents:
 
-    1. [Project Name] (#project-name)
-    2. [Description](#description)
-    3. [GitHub Username](#github)
-    4. [Email](#email)
-    5. [Installation](#installation)
-    6. [Usage](#usage)
-    7. [License](#license)
-    8. [Contributing](#contributing)
-    9. [Tests](#tests)
-    10. [Questions](#questions)
+1. [Project Name](#project-name)
+2. [Description](#description)
+3. [GitHub Username](#github)
+4. [Email](#email)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [License](#license)
+8. [Contributing](#contributing)
+9. [Tests](#tests)
+10. [Questions](#questions)
 
 ## GitHub
 

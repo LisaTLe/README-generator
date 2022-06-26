@@ -13,46 +13,46 @@ function generateMarkdown(data) {
 
   <h1> ${data.projectName} </h1>
 
-  ##<a name="description">Description</a> 
+  ## Description
   ${data.Description}
 
-  #Table of Contents:
-    1. [Project Name](#project-name)
-    2. [Description](#description)
-    3. [GitHub Username](#gitHub)
-    4. [Email](#email)
-    5. [Installation](#installation)
-    6. [Usage](#usage)
-    7. [License](#license)
-    8. [Contributing](#contributing)
-    9. [Tests](#tests)
-    10. [Questions](#questions)
+  ## Table of Contents:
+  1. [Project Name](#project-name)
+  2. [Description](#description)
+  3. [GitHub Username](#github)
+  4. [Email](#email)
+  5. [Installation](#installation)
+  6. [Usage](#usage)
+  7. [License](#license)
+  8. [Contributing](#contributing)
+  9. [Tests](#tests)
+  10. [Questions](#questions)
 
-  ##GitHub
+  ## GitHub
   Username: ${data.GitHubUser}
 
-  ##Email
+  ## Email
   Email: ${data.Email}
 
-  ##Project Name
+  ## Project Name
   ${data.projectName}
 
-  ##Installation
+  ## Installation
   ${data.Installation}
 
-  ##Usage
+  ## Usage
   ${data.Usage}
 
-  ##License
+  ## License
   This project is license under: ${data.license}
 
-  ##Contributing
+  ## Contributing
   ${data.Contributing}
 
-  ##Tests
+  ## Tests
   ${data.Tests}
 
-  ##Questions
+  ## Questions
   If there are any questions regarding the project, please email the question(s) to this email: ${data.Email}.
   To see my more of my project or other projects, please visit my GitHub: https://github.com/${data.GitHubUser}
 `;
