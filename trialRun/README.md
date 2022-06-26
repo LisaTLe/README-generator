@@ -23,11 +23,11 @@ This application is an easy and quick way for developers to generate a README ma
 
 ## GitHub
 
-Username: LisaTle
+By: LisaTLe
 
 ## Email
 
-Email: Lisa.le1127@gmail.com
+Email: Lisa.Le1127@gmail.com
 
 ## Project Name
 
@@ -43,9 +43,7 @@ This project is used to quickly create markdown files for projects. To be able t
 
 ## License
 
-This project is license under Mozilla 2.0.
-
-![Badge](https://img.shields.io/badge/license-passing-pink)
+This project is license under: undefined
 
 ## Contributing
 
@@ -53,9 +51,7 @@ Lisa Le
 
 ## Tests
 
-Testing video here:
-
 ## Questions
 
-If there are any questions regarding the project, please email the question(s) to this email: Lisa.le1127@gmail.com.
-To see my more of my project or other projects, please visit my GitHub: https://github.com/LisaTle
+If there are any questions regarding the project, please email the question(s) to this email: Lisa.Le1127@gmail.com.
+To see my more of my project or other projects, please visit my GitHub: https://github.com/LisaTLe
