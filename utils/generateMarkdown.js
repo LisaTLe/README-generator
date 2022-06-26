@@ -11,12 +11,12 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ![Badge](https://img.shields.io/badge/license-passing-pink)
 
-  <h1> <span id="projectName" >${data.projectName} </span> </h1>
+  <h1> ${data.projectName} </h1>
 
-  ## Description
+  ##Description
   ${data.Description}
 
-  ## Table of Contents:
+  ##Table of Contents:
     1. [Project Name](#projectName)
     2. [Description](#description)
     3. [GitHub Username](#gitHubUser)
@@ -28,31 +28,31 @@ function generateMarkdown(data) {
     9. [Tests](#tests)
     10. [Questions](#questions)
 
-  ## GitHub
+  ##GitHub
   Username: ${data.GitHubUser}
 
-  ## Email
+  ##Email
   Email: ${data.Email}
 
-  ## Project Name
+  ##Project Name
   ${data.projectName}
 
-  ## Installation
+  ##Installation
   ${data.Installation}
 
-  ## Usage
+  ##Usage
   ${data.Usage}
 
-  ## License
+  ##License
   This project is license under: ${data.license}
 
-  ## Contributing
+  ##Contributing
   ${data.Contributing}
 
-  ## Tests
+  ##Tests
   ${data.Tests}
 
-  ## Questions
+  ##Questions
   If there are any questions regarding the project, please email the question(s) to this email: ${data.Email}.
   To see my more of my project or other projects, please visit my GitHub: https://github.com/${data.GitHubUser}
 `;
