@@ -3,7 +3,6 @@ const fs = require("fs");
 const generate = require("./utils/generateMarkdown");
 const fileName = "README.md";
 
-// const questions = () => {
 inquirer
   .prompt([
     {
@@ -75,37 +74,3 @@ inquirer
         : console.log("Success! Your README has been created!")
     )
   );
-
-// const writeFile = (data) => {
-//   fs.writeFile("README.md", data, (err) => {
-//     if (err) {
-//       console.log(err);
-//       return;
-//     } else {
-//       console.log("Success! Your README has been created!");
-//     }
-//   });
-// };
-// questions()
-//   .then((response) => {
-//     return generate(response);
-//   })
-//   .then((data) => {
-//     return writeFile(data);
-//   })
-//   .catch((err) => {
-//     console.log(err);
-//   });
-
-// function writeToFile(fileName, data) {
-//   const markdownFile = generate(data);
-//   fs.writeFile(fileName, markdownFile, (err) =>
-//     err
-//       ? console.error(err)
-//       : console.log("Success! Your README has been created!")
-//   );
-// }
-
-// .then((response) => {
-//   return fs.writeFile(fileName.join (process.cwd(), "README.md"),generate(response))
-// })

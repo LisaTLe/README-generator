@@ -17,19 +17,19 @@ function generateMarkdown(data) {
   ${data.Description}
 
   ## Table of Contents:
-    1. [projectName](#projectName)
-    2. [Description](#Description)
-    3. [GitHubUser](#GitHubUser)
-    4. [Email](#Email)
-    5. [Installation](#Installation)
-    6. [Usage](#Usage)
-    7. [License](#License)
-    8. [Contributing](#Contributing)
-    9. [Tests](#Tests)
-    10. [Questions](#Questions)
+    1. [Project Name](#projectName)
+    2. [Description](#xescription)
+    3. [GitHub Username](#gitHubUser)
+    4. [Email](#email)
+    5. [Installation](#installation)
+    6. [Usage](#usage)
+    7. [License](#license)
+    8. [Contributing](#contributing)
+    9. [Tests](#tests)
+    10. [Questions](#questions)
 
   ## GitHub
-  By: ${data.GitHubUser}
+  Username: ${data.GitHubUser}
 
   ## Email
   Email: ${data.Email}
