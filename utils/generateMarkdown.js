@@ -13,8 +13,8 @@ function generateMarkdown(data) {
 
   <h1> ${data.projectName} </h1>
 
-  ##Description <a name="description"></a>
-  ${data.Description}
+  ##Description 
+  <a name="description">${data.Description}</a>
 
   #Table of Contents:
     1. [Project Name](#project-name)
