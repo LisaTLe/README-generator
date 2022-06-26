@@ -1,5 +1,3 @@
-# undefined
-
 ![Badge](https://img.shields.io/badge/license-passing-pink)
 
   <h1> README-generator </h1>
