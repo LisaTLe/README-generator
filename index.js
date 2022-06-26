@@ -8,12 +8,12 @@ inquirer
     {
       type: "input",
       message: "What is your GitHub username?",
-      name: "GitHubUser",
+      name: "gitHubUser",
     },
     {
       type: "input",
       message: "What is your email?",
-      name: "Email",
+      name: "email",
     },
     {
       type: "input",
@@ -23,22 +23,22 @@ inquirer
     {
       type: "input",
       message: "What is the project about? Give a brief discription.",
-      name: "Description",
+      name: "description",
     },
     {
       type: "input",
       message: "Describe the installation process for this project:",
-      name: "Installation",
+      name: "installation",
     },
     {
       type: "input",
       message: "What is this project used for?",
-      name: "Usage",
+      name: "usage",
     },
     {
       type: "list",
       message: "What licenses were used in this project?",
-      name: "License",
+      name: "license",
       choices: [
         "Apache 2.0",
         "BSD 3-Clause",
@@ -54,17 +54,17 @@ inquirer
     {
       type: "input",
       message: "Who were the contributers for this project?",
-      name: "Contributing",
+      name: "contributing",
     },
     {
       type: "input",
       message: "Provide tests for project with video:",
-      name: "Tests",
+      name: "tests",
     },
     {
       type: "input",
       message: "What questions need to be answered for the project?",
-      name: "Questions",
+      name: "questions",
     },
   ])
   .then((response) =>
