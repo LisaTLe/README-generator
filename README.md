@@ -12,7 +12,7 @@ This application is an easy and quick way for developers to generate a README ma
 
     1. [Project Name](#project-name)
     2. [Description](#description)
-    3. [GitHub Username](#gitHubUser)
+    3. [GitHub Username](#github)
     4. [Email](#email)
     5. [Installation](#installation)
     6. [Usage](#usage)
