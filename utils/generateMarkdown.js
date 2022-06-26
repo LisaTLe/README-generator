@@ -17,9 +17,9 @@ function generateMarkdown(data) {
   ${data.Description}
 
   ##Table of Contents:
-    1. [Project Name](#projectName)
+    1. [Project Name](#project-name)
     2. [Description](#description)
-    3. [GitHub Username](#gitHubUser)
+    3. [GitHub Username](#gitHub)
     4. [Email](#email)
     5. [Installation](#installation)
     6. [Usage](#usage)
