@@ -11,14 +11,14 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ![Badge](https://img.shields.io/badge/license-passing-pink)
 
-  <h1> ${data.projectName} </h1>
+  <h1> <span id="projectName" >${data.projectName} </span> </h1>
 
   ## Description
   ${data.Description}
 
   ## Table of Contents:
     1. [Project Name](#projectName)
-    2. [Description](#xescription)
+    2. [Description](#description)
     3. [GitHub Username](#gitHubUser)
     4. [Email](#email)
     5. [Installation](#installation)
