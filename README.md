@@ -10,7 +10,7 @@ This application is an easy and quick way for developers to generate a README ma
 
 ## Table of Contents:
 
-    1. [Project Name](#projectName)
+    1. [Project Name](#project-name)
     2. [Description](#description)
     3. [GitHub Username](#gitHubUser)
     4. [Email](#email)
