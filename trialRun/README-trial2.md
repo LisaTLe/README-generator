@@ -55,7 +55,7 @@ Lisa Le
 
 ![Test](../assets/GIF/README-generator_%20Jun%2025%2C%202022.gif)
 
-Test Video Here: ![Test Video](../assets/test-video/README-generator_%20Jun%2025%2C%202022.webm)
+Test Video Here: ![Test Video](https://drive.google.com/file/d/14_sqehF5Fxo0kp6x4yTv6dIQwyp-8uR9/view)
 
 ## Questions
 
