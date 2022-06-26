@@ -54,7 +54,7 @@ inquirer
     },
     {
       type: "input",
-      message: "Who were there contributers for this project?",
+      message: "Who were the contributers for this project?",
       name: "Contributing",
     },
     {
