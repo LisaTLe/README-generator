@@ -1,5 +1,3 @@
-# undefined
-
 ![Badge](https://img.shields.io/badge/license-passing-pink)
 
   <h1> README-generator </h1>
@@ -53,7 +51,11 @@ Lisa Le
 
 ## Tests
 
-Trial video here:
+![Test](../assets/GIF/README-generator_%20Jun%2025%2C%202022.gif)
+
+Test Video Here: https://drive.google.com/file/d/14_sqehF5Fxo0kp6x4yTv6dIQwyp-8uR9/view
+
+![Test Video](https://drive.google.com/file/d/14_sqehF5Fxo0kp6x4yTv6dIQwyp-8uR9/view)
 
 ## Questions
 
